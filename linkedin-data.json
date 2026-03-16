@@ -1,0 +1,44 @@
+{
+  "profile": {
+    "name": "Ayan Nazm",
+    "headline": "MSc Business Analytics Student at Warwick Business School | Former Business Analyst Consultant",
+    "location": "Coventry, United Kingdom",
+    "profileUrl": "https://www.linkedin.com/in/ayannazm"
+  },
+  "stats": {
+    "connections": 500,
+    "followers": 342,
+    "profileViews": 156,
+    "postImpressions": 89
+  },
+  "experience": {
+    "current": {
+      "title": "MSc Business Analytics Student",
+      "company": "Warwick Business School",
+      "duration": "2024 - Present"
+    },
+    "previous": {
+      "title": "Business Analyst Consultant",
+      "company": "Hghradius",
+      "duration": "2021 - 2024 (3+ years)"
+    }
+  },
+  "education": {
+    "degree": "MSc Business Analytics",
+    "institution": "Warwick Business School",
+    "year": "2024 - Present"
+  },
+  "skills": [
+    "Python",
+    "SQL",
+    "R",
+    "Tableau",
+    "Power BI",
+    "Excel",
+    "VBA",
+    "Data Analysis",
+    "Business Intelligence",
+    "Machine Learning"
+  ],
+  "lastUpdated": "2026-03-13"
+}
