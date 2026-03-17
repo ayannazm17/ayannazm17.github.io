@@ -195,9 +195,9 @@
     .photo-placeholder {
       width: 100%; height: 100%;
       background: var(--card); border: 1px solid var(--border);
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      gap: 0.8rem; position: relative; z-index: 1;
+      display: block;
+      position: relative; z-index: 1;
+      overflow: hidden;
     }
     .photo-initials {
       font-family: var(--serif); font-size: 4.5rem;
@@ -415,7 +415,7 @@
     <li><a href="#contact">Contact</a></li>
   </ul>
   <!-- Change 2: CV download button in nav -->
-  <a href="./cv.pdf" download class="nav-cta">Download CV ↓</a>
+  <a href="https://raw.githubusercontent.com/ayannazm17/ayannazm17.github.io/main/cv.pdf" download="Ayan_Nazm_CV.pdf" class="nav-cta">Download CV ↓</a>
 </nav>
 
 <!-- ── HERO ──────────────────────────────────────────────── -->
@@ -450,13 +450,12 @@
     </div>
   </div>
 
-  <!-- Change 15: Hero photo placeholder -->
+  <!-- Real photo -->
   <div class="hero-right">
     <div class="photo-frame">
       <div class="photo-border"></div>
       <div class="photo-placeholder">
-        <div class="photo-initials">AN</div>
-        <div class="photo-hint">Replace with your photo</div>
+        <img src="./photo.jpg" alt="Ayan Nazm" style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block;" />
         <div class="photo-tag">
           <span>Ayan Nazm</span>
           <span>Coventry, UK</span>
@@ -681,11 +680,11 @@
       <p>Whether you have a role in mind, a data project to discuss, or just want to connect — I'd love to hear from you.</p>
 
       <div class="contact-items">
-        <a href="mailto:ayan4dreem71@gmail.com" class="contact-item">
+        <a href="/cdn-cgi/l/email-protection#f998809897cd9d8b9c9c94cec8b99e94989095d79a9694" class="contact-item">
           <span class="contact-icon">✉️</span>
           <div class="contact-info">
             <div class="contact-label">Email</div>
-            <div class="contact-value">ayan4dreem71@gmail.com</div>
+            <div class="contact-value"><span class="__cf_email__" data-cfemail="73120a121d47170116161e444233141e121a1f5d101c1e">[email&#160;protected]</span></div>
           </div>
           <span class="contact-arrow">→</span>
         </a>
@@ -714,7 +713,7 @@
       <div class="cv-cta-box">
         <h3>Download My CV</h3>
         <p>Full experience, education, and skills — one page, ready to share with recruiters.</p>
-        <a href="./cv.pdf" download="Ayan_Nazm_CV.pdf" class="btn-primary">Download CV ↓</a>
+        <a href="https://raw.githubusercontent.com/ayannazm17/ayannazm17.github.io/main/cv.pdf" download="Ayan_Nazm_CV.pdf" class="btn-primary">Download CV ↓</a>
       </div>
     </div>
   </div>
@@ -726,5 +725,4 @@
   <span style="font-family: var(--mono); letter-spacing: 0.05em;">MSc Business Analytics · Warwick Business School</span>
 </footer>
 
-<!-- ── 9: NAVBAR SCROLL JS ────────────────────────────────── -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd7
+<!-- ── 9: NAVBAR SCROLL JS ───────�
